@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate</title>
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!------------------------ Header ---------------------------->
+  <header>
+    <div class="header-area">
+      <div class="header-info-container">
+        <div class="container">
+          <div class="row">
+            <p class="header-message header-1">
+              <span>Welcome to Conbusi consulting service</span>
+            </p>
+            <div class="header-contact header-flex-container header-2">
+              <div class="header-col-1">
+                <a href="#">
+                  <i class="icon-envelope"></i>
+                  info@docmed.com
+                </a>
+                <a href="#">
+                  <i class="icon-phone"></i>
+                  1601-609 6780
+                </a>
+              </div>
+              <div class="header-col-1 social-logo">
+                <i class="icon-linkedin"></i>
+                <i class="icon-facebook"></i>
+                <i class="icon-google-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav">
+        <div class="container">
+          <div class="nav-container">
+            <div class="nav-col nav-col-1">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="img/logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="nav-col nav-col-2">
+              <nav id="navmenu">
+                <ul class="navigation">
+                  <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                  <li>
+                    <a href="index.html" class="current">Home</a>
+                  </li>
+                  <li class="sublink">
+                    <a href="#" onclick="dropMenu()">
+                      Pages
+                      <i class="icon-caret-down"></i>
+                    </a>
+                    <ul class="submenu" id="dropdown">
+                      <li>
+                        <a href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a href="#">Property details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Property</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="nav-col col-3">
+              <div class="property-btn">
+                <i class="icon-search"></i>
+                <a href="" class="add-btn">Add Property</a>
+              </div>
+            </div>
+            <div class="nav-col col-4">
+              <div class="navigation-btn">
+                <i class="icon-bars dropbtn" onclick="openNav()"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!------------------------ Header end ---------------------------->
+
+  <!--------------------- Property section ----------------------->
+  <section class="property-form-section overlay">
+    <div class="property-banner banner-flex banner-align">
+      <div class="property-row">
+        <div class="property-text">
+          <h3>Find your best property</h3>
+          <p>Esteem spirit temper too say adieus who direct esteem</p>
+        </div>
+        <div class="property-form">
+          <form>
+            <div class="property-form-row">
+              <div class="property-col">
+                <label>Location</label>
+                <select>
+                  <option value="NewYork">New-York</option>
+                  <option value="chicago">Chicago</option>
+                  <option value="losAngelos">Los Angelos</option>
+                </select>
+              </div>
+              <div class="property-col">
+                <label>Property type</label>
+                <select>
+                  <option value="apartment">Apartment</option>
+                  <option value="suit">Suit</option>
+                  <option value="apartment">Apartment</option>
+                </select>
+              </div>
+              <div class="property-col">
+                <label>Price ($)</label>
+                <input type="number" name="price" />
+              </div>
+              <div class="property-col">
+                <label>Bed Room</label>
+                <select name="bedRoom">
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                </select>
+              </div>
+              <div class="property-col">
+                <label>Bath Room</label>
+                <select name="bedRoom">
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                </select>
+              </div>
+              <div class="property-search">
+                <a href="#">
+                  <i class="icon-search"></i>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Property form end -->
+
+  <!-- Popular property section -->
+  <section class="popular-property">
+    <div class="container">
+      <div class="property-header">
+        <h3>Popular Properties</h3>
+      </div>
+      <div class="popular-property-container">
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb">For Sale</p>
+              <img src="img/property/1.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">From $20k</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb thumb-red">For Rent</p>
+              <img src="img/property/2.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">$563/month</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb">For Sale</p>
+              <img src="img/property/3.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">From $20k</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb thumb-red">For Rent</p>
+              <img src="img/property/4.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">$563/month</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb">For Sale</p>
+              <img src="img/property/5.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">From $20k</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="property-column">
+          <div class="single-property">
+            <div class="property-image-container">
+              <p class="thumb">For Sale</p>
+              <img src="img/property/6.png" />
+            </div>
+            <div class="property-content">
+              <h3><a href="#">Comfortable Apartment in Palace</a></h3>
+              <p><span class="icon-map-marker"></span> Popular Properties</p>
+              <span class="price">From $20k</span>
+            </div>
+            <div class="property-inner-info">
+              <ul>
+                <li>
+                  <span class="icon-building"></span>
+                  <span> 1200 Sqfl</span>
+                </li>
+                <li>
+                  <span class="icon-bed"></span>
+                  <span> 2 Bed</span>
+                </li>
+                <li>
+                  <span class="icon-bath"></span>
+                  <span> 2 Bath</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-property">
+        <h3><a href="">More Properties</a></h3>
+      </div>
+    </div>
+  </section>
+  <!------------------------ Property end ---------------------------->
+
+  <!-- Home details -->
+  <section class="home-details"></section>
+  <!-- Home details end -->
+
+  <!-- Accordion area -->
+  <section class="accordion-area">
+    <div class="container">
+      <div class="accordion-container">
+        <div class="accordion-col accordion-col-2">
+          <div class="accordion-content">
+            <h3>Frequently ask</h3>
+            <div class="accordion-button">
+              <div class="card">
+                <button class="accordion-btn">
+                  Adieus who direct esteem?<span class="icon-check"></span>
+                </button>
+                <div class="panel">
+                  <p>
+                    Esteem spirit temper too say adieus who direct esteem
+                    esteems luckily or picture placing drawing.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <button class="accordion-btn">
+                  Who direct esteem it esteems?<span class="icon-check"></span>
+                </button>
+                <div class="panel">
+                  <p>
+                    Esteem spirit temper too say adieus who direct esteem
+                    esteems luckily or picture placing drawing.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <button class="accordion-btn">
+                  Duis consecteur feuglat auctor?<span class="icon-check"></span>
+                </button>
+                <div class="panel">
+                  <p>
+                    Esteem spirit temper too say adieus who direct esteem
+                    esteems luckily or picture placing drawing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-col accordion-col-2">
+          <div class="accordion-image">
+            <img src="img/banner/accordion.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Accordion area end -->
+
+  <!-- Counter section -->
+  <section class="counter-section">
+    <div class="counter">
+      <div class="wrapper">
+        <div class="counter-container">
+          <div class="single-counter">
+            <span class="counter">2500</span>
+            <p>Properties for sale</p>
+          </div>
+          <div class="single-counter">
+            <span class="counter">3000</span>
+            <p>Properties for rent</p>
+          </div>
+          <div class="single-counter">
+            <span class="counter">150</span>
+            <p>Properties for sale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Counter end -->
+  <!-- Testimonials section -->
+  <section class="testmonial-section overlay">
+    <div class="testimonial-cover">
+      <h3>What our customers say</h3>
+      <div class="container">
+        <div class="testimonial-container">
+          <div class="testimonial-col">
+            <div id="customers-testimonial" class="owl-carousel owl-theme">
+              <div class="testimonial">
+                <div class="client-img">
+                  <img src="img/case/client-1.jpg" />
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima maiores voluptate numquam! Vitae, nesciunt
+                    laboriosam ipsam ut aut similique adipisci rerum eos,
+                    cumque dolorum dignissimos a reiciendis maxime esse sunt.
+                  </p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p>
+                    <strong>Tania Spears</strong>
+                    <span>CEO & Business Owner</span>
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial">
+                <div class="client-img">
+                  <img src="img/case/client-2.jpg" />
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima maiores voluptate numquam! Vitae, nesciunt
+                    laboriosam ipsam ut aut similique adipisci rerum eos,
+                    cumque dolorum dignissimos a reiciendis maxime esse sunt.
+                  </p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p>
+                    <strong>Tania Spears</strong>
+                    <span>CEO & Business Owner</span>
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial">
+                <div class="client-img">
+                  <img src="img/case/client-3.jpg" />
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima maiores voluptate numquam! Vitae, nesciunt
+                    laboriosam ipsam ut aut similique adipisci rerum eos,
+                    cumque dolorum dignissimos a reiciendis maxime esse sunt.
+                  </p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p>
+                    <strong>Tania Spears</strong>
+                    <span>CEO & Business Owner</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial section end -->
+
+  <!-- Agents section -->
+  <section class="team-area">
+    <div class="container">
+      <div class="row-agent-header">
+        <div class="agent-header">
+          <h3>Our Agents</h3>
+        </div>
+      </div>
+      <div class="row-agent">
+        <div class="agent-col">
+          <div class="single-team">
+            <div class="team-profil">
+              <img src="img/team/1.png" />
+              <div class="agent-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icon-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-detail">
+              <h3>Milani Mou</h3>
+              <p>Business Agent</p>
+            </div>
+          </div>
+        </div>
+        <div class="agent-col">
+          <div class="single-team">
+            <div class="team-profil">
+              <img src="img/team/2.png" />
+              <div class="agent-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icon-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-detail">
+              <h3>Halim Yoka</h3>
+              <p>Business Agent</p>
+            </div>
+          </div>
+        </div>
+        <div class="agent-col">
+          <div class="single-team">
+            <div class="team-profil">
+              <img src="img/team/3.png" />
+              <div class="agent-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icon-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-detail">
+              <h3>Dalim Karma</h3>
+              <p>Business Agent</p>
+            </div>
+          </div>
+        </div>
+        <div class="agent-col">
+          <div class="single-team">
+            <div class="team-profil">
+              <img src="img/team/4.png" />
+              <div class="agent-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icon-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-detail">
+              <h3>Micky</h3>
+              <p>Business Agent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team section end -->
+  <!-- Contact section -->
+  <section class="contact-area">
+    <div class="container">
+      <div class="contact-row">
+        <div class="contact-col contact-col-1">
+          <div class="contact-text">
+            <h3>Add your property for sale</h3>
+          </div>
+        </div>
+        <div class="contact-col contact-col-2">
+          <div class="contact-info">
+            <span>+10 637 367 4567</span>
+            <a href="#">Add Property</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="#">
+                  <img src="img/footer_logo.png" alt="" />
+                </a>
+              </div>
+              <p>
+                <a href="#">conbusi@support.com</a>
+                <br />
+                +10 873 672 6782
+                <br />
+                600/D, Green Road, New York
+              </p>
+              <div class="footer-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icon-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-widget">
+              <h3 class="footer-title">Services</h3>
+              <ul>
+                <li>
+                  <a href="">Marketing & SEO</a>
+                </li>
+                <li>
+                  <a href="">Startup</a>
+                </li>
+                <li>
+                  <a href="">Finance solution</a>
+                </li>
+                <li>
+                  <a href="">Food</a>
+                </li>
+                <li>
+                  <a href="">Travel</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-col footer-col-3">
+            <div class="footer-widget">
+              <h3 class="footer-title">Useful Links</h3>
+              <ul>
+                <li>
+                  <a href="">About</a>
+                </li>
+                <li>
+                  <a href="">Blog</a>
+                </li>
+                <li>
+                  <a href="">Contact</a>
+                </li>
+                <li>
+                  <a href="">Appointment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-col footer-col-4">
+            <div class="footer-widget">
+              <h3 class="footer-title">Subscribe</h3>
+              <form class="newsletter-form">
+                <input type="email" name="email" placeholder="Enter your mail" />
+                <button type="submit">Subscribe</button>
+              </form>
+              <p>
+                Esteem spirit temper too say adieus who direct esteem esteems
+                luckily
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="footer-border"></div>
+        <p>Copyright &copy;2020 All rights reserved | Real state</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
